@@ -1,0 +1,91 @@
+/* This is used for all HTML files, it includes the styling for things that are in
+all HTML files */
+:root {
+    --primary: #25d671;
+    --secondary: #ff3b48;
+    --third: #009bff;
+}
+* {
+    margin: 0 auto;
+
+}
+body {
+    background-color: var(--third);
+}
+h1 {
+    font-family: Roboto;
+}
+#navbar {
+    width: 100%;
+    margin: 0 auto;
+    outline: black;
+}
+#header {
+    background: var(--primary);
+
+}
+#header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+nav {
+    float:  right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 25px 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+nav ul li a:hover {
+    color: var(--secondary);
+}
+.pageImageAndTitle {
+    position: relative;
+    text-align: center;
+}
+.pageImageAndTitle h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 50px;
+    color: var(--primary);
+}
+.pageImageAndTitle img {
+    width: 100%;
+}
+#content {
+    width: 1250px;
+    height: auto;
+}
+#footer {
+    background-color: var(--secondary);
+    width: 100%;
+    height: 150px;
+}
+@keyframes slideUp {
+    from {
+        opacity: 0.2;
+        line-height: 50px;
+    }
+    to {
+        opacity: 1;
+        line-height: 25px;
+    }
+}

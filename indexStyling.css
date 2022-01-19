@@ -1,0 +1,66 @@
+.aboutSection {
+    animation: slideUp 2s;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutSection h1 {
+    font-family: "Roboto";
+}
+.aboutSection p {
+    font-family: "Open Sans";
+}
+.aboutSection .flexboxItem2 {
+    width: 40%;
+    
+    outline: thick solid var(--secondary);
+    height: min-content;
+
+    padding: 10px;
+}
+.sunflowerBanner {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.openingTimesAndContact {
+    display: flex;
+    margin-top: 40px;
+    width: 700px;
+}
+.openingTimes {
+    margin-right: 20px;
+}
+.openingTimes h3 {
+    font-family: "Open Sans";
+}
+.openingTimes p {
+    font-family: "Open Sans";
+}
+.contactUs input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.contactUs textarea {
+    width: 100%;
+}
+.contactUs form {
+    text-align: center;
+}
+.contactUs button {
+    margin-top: 10px;
+    background-color: lime;
+    padding: 5px  10px;
+    border: none;
+    border-radius: 8px;
+}
+@keyframes slideUp {
+    from {
+        opacity: 0.2;
+        line-height: 50px;
+    }
+    to {
+        opacity: 1;
+        line-height: 25px;
+    }
+}

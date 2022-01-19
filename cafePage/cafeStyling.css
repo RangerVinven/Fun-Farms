@@ -1,0 +1,44 @@
+#visitOurCafe {
+    margin-top: 50px;
+}
+#visitOurCafe h1 {
+    color: var(--primary);
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#visitOurCafe .row1 .visitOurCafeText {
+    width: 40%;
+    margin-right: -80px;
+
+    outline: thick solid var(--secondary);
+    height: min-content;
+    padding: 10px;
+}
+.row1 .visitOurCafeText h1 {
+    font-family: "Roboto";
+}
+.row1 .visitOurCafeText p {
+    font-family: "Open Sans";
+}
+
+.row2 {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.row2 #menuText {
+    width: 40%;
+    margin-left: -80px;
+
+    outline: thick solid var(--secondary);
+    height: min-content;
+    padding: 10px;
+}
+.row2 #menuText h1 {
+    font-family: "Roboto";
+}
+.row2 #menuText p {
+    font-family: "Open Sans";
+}

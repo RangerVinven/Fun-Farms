@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../appStyles.css">
+    <link rel="stylesheet" href="pettingZooStyling.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+
+    <title>Fun Farms - Our Petting Zoo</title>
+</head>
+<body>
+    <div id="header">
+        <div id="navbar">
+        
+            <img src="#" alt="Logo" class="logo">
+    
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../cafePage/cafe.html">Cafe</a></li>
+                    <li><a href="pettingZoo.html">Petting Zoo</a></li>
+                    <li><a href="#">Kid's Play Park</a></li>
+                </ul>
+            </nav>
+    
+        </div>
+    </div>
+
+    <div class="pageImageAndTitle">
+        <img src="../images/cafeBanner.jpg" alt="Image">
+        <h1>Our Petting Zoo</h1>
+    </div>
+
+    <div id="content">
+
+        <div id="pettingZoo">
+
+            <div class="title">
+                <h1 class="backButton" onclick="closeGallery()">&#8678;</h1>
+                <h1 id="ourAnimalsTitle">Our Animals</h1>
+            </div>
+
+            <div id="animals">
+                <div class="row1">
+                    <div class="chickens" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/chickens.jpeg" alt="Chickens">
+                        <h1>Chickens</h1>
+                    </div>
+    
+                    <div class="cows" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/cows.jpeg" alt="Cows">
+                        <h1>Cows</h1>
+                    </div>
+    
+                    <div class="goats" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/goats.jpeg" alt="Goats">
+                        <h1>Goats</h1>
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="koalaBears" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/koalaBear.jpeg" alt="Koala Bear">
+                        <h1>Koala Bears</h1>
+                    </div>
+
+                    <div class="peacocks" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/peacock.jpeg" alt="Peacock">
+                        <h1>Peacock</h1>
+                    </div>
+
+                    <div class="pigs" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/pigs.jpeg" alt="Pigs">
+                        <h1>Pigs</h1>
+                    </div>
+                </div>
+
+                <div class="row3">
+                    <div class="rabbits" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/rabbits.jpeg" alt="Rabbits">
+                        <h1>Rabbits</h1>
+                    </div>
+
+                    <div class="horses" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/horses.jpeg" alt="Horses">
+                        <h1>Horses</h1>
+                    </div>
+
+                    <div class="turkeys" onclick="openSpecificAnimalGallery(this)">
+                        <img src="../images/pettingZooAnimals/thumbnails/turkeys.jpeg" alt="Turkeys">
+                        <h1>Turkeys </h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div id="ourPettingZoo">
+            
+            <img id="ourPettingZooImage" src="../images/coffee.jpeg">
+
+            <div id="ourPettingZooText">
+                <h1>Visit Our Petting Zoo</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, lacus a aliquet hendrerit, ex sem pellentesque eros,
+                    posuere consectetur enim purus congue sem. Sed tristique molestie mauris, in sollicitudin nunc pulvinar bibendum. Proin
+                    tempus purus mollis elit congue accumsan. Nullam dictum lorem et tortor porttitor dictum. Vivamus id risus eget ipsum faucibus
+                    convallis sed et diam. Praesent et aliquam lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos
+                </p>
+                <br>
+                <p>
+                    In accumsan imperdiet posuere. Quisque consectetur egestas mi id blandit. Nulla eleifend at sem vel tempus. Nullam id nunc
+                    laoreet, ultrices nibh quis, imperdiet orci. Sed pharetra augue eu arcu faucibus, eu aliquet arcu congue. Mauris ultricies erat eu
+                    dignissim, et vulputate leo cursus. Duis egestas nulla id interdum luctus. Aenean sed facilisis mi. Orci varius natoque penatibus 
+                    magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus sem, elementum at pretium quis, lacinia sed augue. 
+                    Mauris laoreet egestas ligula, vitae aliquam orci consectetur eu 
+                </p>
+
+                <div>
+                    <h1 id="checkItOutHeader"
+                    onmouseover="this.style.color = 'var(--primary)'"
+                    onmouseout="this.style.color = 'black'"
+                    onclick="openGallery()">
+                    Check It Out!
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    
+    <div id="footer">
+        
+    </div>
+
+    <script src="pettingZooCode.js"></script>
+</body>
+</html>

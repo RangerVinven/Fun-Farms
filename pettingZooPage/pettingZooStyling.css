@@ -1,0 +1,85 @@
+#ourPettingZoo {
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+}
+#ourPettingZoo #ourPettingZooText {
+    width: 40%;
+    margin-left: -80px;
+}
+#ourPettingZoo #ourPettingZooText h1 {
+    font-family: "Roboto";
+}
+#ourPettingZoo #ourPettingZooText p {
+    font-family: "Open Sans";
+}
+#ourPettingZoo #ourPettingZooText #checkItOutHeader {
+    margin-top: 60px;
+    width: min-content;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* For the interactive gallery that appears when the "Check It Out" button is pressed */
+#pettingZoo {
+    z-index: 1;
+    width: 1250px;
+    height: auto;
+    background-color: lime;
+    position: absolute;
+    padding-bottom: 5px;
+
+    /* To hide it until the "Check It Out" button is pressed */
+    display: none;
+}
+#pettingZoo h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#pettingZoo #animals .row1 {
+    display: flex;
+}
+#pettingZoo #animals .row2 {
+    display: flex;
+}
+#pettingZoo #animals .row3 {
+    display: flex;
+}
+#pettingZoo #animals h1 {
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 20px;
+
+    font-size: 22px;
+}
+.title {
+    text-align: center;
+}
+.title h1 {
+    display: inline;
+    text-align: left;
+}
+
+#specificAnimalGallery {
+    z-index: 2;
+    width: 1250;
+    height: auto;
+    background-color: red;
+    position: absolute;
+    padding-bottom: 5px;
+}
+#gallery {
+    display: flex;
+}
+#largeImage {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#smallImages {
+    display: flex;
+    flex-direction: column;
+}
+#smallImages img {
+    padding: 0px 15px 20px 15px;
+}
