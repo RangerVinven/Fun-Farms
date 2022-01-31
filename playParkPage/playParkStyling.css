@@ -1,0 +1,65 @@
+.playParkSection {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.playParkSection h1 {
+    font-family: "Roboto";
+}
+.playParkSection p {
+    font-family: "Open Sans";
+}
+.playParkSection .playParkInfo {
+    width: 40%;
+    
+    outline: thick solid var(--secondary);
+    height: min-content;
+
+    padding: 10px;
+}
+.playParkSection .playParkImage {
+    margin-left: -5.65%;
+}
+
+/* For the images */
+#imagesContainer {
+    width: 1000px;
+    height: 667px;
+}
+#images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#images img {
+    position: absolute;
+}
+.hidden {
+    opacity: 0;
+}
+/* #controlArrows {
+    width: 100%;
+    height: 100%;
+
+    outline: solid;
+    
+}
+#leftArrow {
+    position: relative;
+
+    margin-left: 10px;
+    top: 50%;
+    translate: translateY(-50%);
+}
+#rightArrow {
+    float: right;
+    position: relative;
+
+    margin-right: 10px;
+    top: 50%;
+    translate: translateY(-50%);
+} */
+
+#footer {
+    margin-top: 30px;
+}

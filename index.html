@@ -17,14 +17,14 @@
     <div id="header">
         <div id="navbar">
         
-            <img src="#" alt="Logo" class="logo">
+            <img src="images/logo.png" alt="Logo" id="logo">
     
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="cafePage/cafe.html">Cafe</a></li>
                     <li><a href="pettingZooPage/pettingZoo.html">Petting Zoo</a></li>
-                    <li><a href="#">Kid's Play Park</a></li>
+                    <li><a href="playParkPage/playPark.html">Kid's Play Park</a></li>
                 </ul>
             </nav>
     
@@ -32,35 +32,32 @@
     </div>
 
     <div class="pageImageAndTitle">
-        <img src="images/whiteBird.jpg" alt="Image" style="width: 100%;">
+        <img src="images/homeHeader.jpg" alt="Image">
         <h1>Fun Farms</h1>
     </div>
 
     <div id="content">
         <div class="aboutSection">
             <div class="flexboxItem1">
-                <img src="images/pig.jpg" alt="Person holding banana">
+                <img src="images/pig.jpg" alt="A pig">
             </div>
 
             <div class="flexboxItem2">
                 <h1>About Us</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, lacus a aliquet hendrerit, ex sem pellentesque eros,
-                    posuere consectetur enim purus congue sem. Sed tristique molestie mauris, in sollicitudin nunc pulvinar bibendum. Proin
-                    tempus purus mollis elit congue accumsan. Nullam dictum lorem et tortor porttitor dictum. Vivamus id risus eget ipsum faucibus
-                    convallis sed et diam. Praesent et aliquam lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos
+                    Fun Farms is a small farm but fun farm with lots of food to sell, lots of facilities to check out, and lots of fun to be had. We are
+                    so dedicated to the fun that you and your family can have here that we decided to put it in our name. Now you may be wondering what
+                    you could actually do here if you decide to come, well there's plenty for you to do! Some of our most popular facilities includes
+                    our cafe with delicious tea and coffee, our petting zoo for you to pet the animals to your hearts content, and if that's not enough
+                    fun for you, then how about the kid's play park where they not only get to pet the animals, but play with them and feed them as well!
                 </p>
                 
                 <br>
 
                 <p>
-                    In accumsan imperdiet posuere. Quisque consectetur egestas mi id blandit. Nulla eleifend at sem vel tempus. Nullam id nunc
-                    laoreet, ultrices nibh quis, imperdiet orci. Sed pharetra augue eu arcu faucibus, eu aliquet arcu congue. Mauris ultricies erat eu
-                    dignissim, et vulputate leo cursus. Duis egestas nulla id interdum luctus. Aenean sed facilisis mi. Orci varius natoque penatibus 
-                    magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus sem, elementum at pretium quis, lacinia sed augue. 
-                    Mauris laoreet egestas ligula, vitae aliquam orci consectetur eu 
+                    Fun Farms is for anyone who loves animals, who loves fun, or anyone who just wants a little break from the outside world and would like
+                    pet some animals. If you match any of these points, then I would recommed you come along and check us out, you won't regret it!
                 </p>
-
             </div>
         </div>
 
@@ -68,6 +65,25 @@
         
         <div class="sunflowerBanner">
             <img class="imageAfterAbout" src="images/sunflowerBanner.jpg" alt="Flowers">
+        </div>
+
+        <div id="whatWeOffer">
+            <h1>What We Offer</h1>
+            <p>Fun Farms sells a variety of produce. Some of our most popular produce includes:
+                <ul>
+                    <li>Our Cosmic Chrisp Apples</li>
+                    <li>Our Really Ripe Bananas</li>
+                    <li>Our Sweet Strawberries</li>
+                </ul>
+                And many more!
+            </p>
+            <br>
+            <p>Not only do we sell fresh produce, we also have a cafe, a petting zoo and a play park for kids,
+                <br>
+                so when you visit us, you will never be bored!
+            </p>
+            <br>
+                <p>If you do happen to have any questions, then please don't hesitate to contact us using the form below.</p>
         </div>
 
         <div class="openingTimesAndContact">
@@ -110,16 +126,16 @@
                 <br>
 
                 <form>
-                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="name" placeholder="Name" required>
                     <br>
 
-                    <input type="email" name="email" placeholder="Email">
+                    <input type="email" name="email" placeholder="Email" required>
                     <br>
 
-                    <input type="text" name="subject" placeholder="Subject">
+                    <input type="text" name="subject" placeholder="Subject" required>
                     <br>
 
-                    <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
                     <br>
 
                     <button type="submit">Submit</button>
@@ -131,8 +147,11 @@
         </div>
 
     </div>
+
     <div id="footer">
-        
+        <img src="images/logoFooter.png" alt="Logo">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17568.99968988005!2d-2.8268187!3d56.6033229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4886619b3bb786c1%3A0x3d0777f3b44bc001!2sMeadowgreen%20Farmhouse!5e0!3m2!1sen!2suk!4v1643582657358!5m2!1sen!2suk" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
+
 </body>
 </html>

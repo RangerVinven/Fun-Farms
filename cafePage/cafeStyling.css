@@ -1,9 +1,6 @@
 #visitOurCafe {
     margin-top: 50px;
 }
-#visitOurCafe h1 {
-    color: var(--primary);
-}
 .row1 {
     display: flex;
     flex-wrap: wrap;

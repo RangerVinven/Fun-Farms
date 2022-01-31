@@ -23,9 +23,24 @@
     justify-content: center;
     align-content: center;
 }
+#whatWeOffer {
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+
+    outline: thick solid var(--secondary);
+    
+    width: max-content;
+    font-family: "Roboto";
+
+    list-style-position: inside;
+}
+#whatWeOffer li {
+    font-family: "Roboto";
+}
 .openingTimesAndContact {
     display: flex;
-    margin-top: 40px;
+    margin-top: 25px;
     width: 700px;
 }
 .openingTimes {
