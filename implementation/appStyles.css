@@ -19,7 +19,7 @@ h1 {
     margin: 0 auto;
     outline: black;
 }
-#header {
+#navbar {
     background: var(--primary);
 }
 #header::after {

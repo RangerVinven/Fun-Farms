@@ -10,7 +10,7 @@ const closeAnimalGallery = () => {
     openGallery();
 }
 
-// Listens for when the "Check It Out!" header is clicked
+// Listens for when the "Click Here To Check Out Our Animals" header is clicked
 const openGallery = () => {
     // document.getElementById("pettingZoo").style.visibility = "visible";
     document.getElementById("pettingZoo").style.display = "block";
