@@ -92,7 +92,7 @@ const openSpecificAnimalGallery = (selectedAnimalElement) => {
     //         </div>
 
     //     <div id="specificAnimalGallery">
-    //         <img id="largeImage" src="../images/pettingZooAnimals/{animal}/large/{animal}3.jpeg" alt="Big {animal}">
+    //         <img id="largeImage" src="../images/pettingZooAnimals/{animal}/large/{animal}1.jpeg" alt="Big {animal}">
 
     //         <div id="smallImages">
     //             <img class="image1" onclick="viewAnimalPicture(1, {animal})" src="../images/pettingZooAnimals/{animal}/small/{animal}1.jpeg" alt="Small Image Of {animal} 1">
@@ -104,12 +104,11 @@ const openSpecificAnimalGallery = (selectedAnimalElement) => {
 
     //    </div>
     
-    // Spawns the specificAnimalGallery at the end of hte content
+    // Spawns the specificAnimalGallery at the end of the content
     const content = document.getElementById("content");
     const pettingZooDiv = document.getElementById("pettingZoo");
 
-    // Opens the specific animal gallery and closes the general gallery (where you
-    // pick which animal you want to see images of)
+    // Opens the specific animal gallery and closes the general gallery (where you pick which animal you want to see images of)
     content.insertBefore(specificAnimalGallery, pettingZooDiv);
     closeGallery();
 }

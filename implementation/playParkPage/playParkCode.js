@@ -1,7 +1,7 @@
 let imageOn = 0;
 let images = document.getElementsByClassName("image");
 
-// Runs the arrow function every 2 seconds
+// Runs the arrow function every 1 and a half seconds
 setInterval(() => {
     // Checks if it's displaying the last image
     if(imageOn === images.length-1){

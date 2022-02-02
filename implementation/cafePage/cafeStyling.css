@@ -19,7 +19,6 @@
 .row1 .visitOurCafeText p {
     font-family: "Open Sans";
 }
-
 .row2 {
     display: flex;
     padding-top: 25px;
@@ -33,9 +32,9 @@
     height: min-content;
     padding: 10px;
 }
-.row2 #menuText h1 {
+.row2 #menuText h1, .row2 #menuText h3 {
     font-family: "Roboto";
 }
-.row2 #menuText p {
+.row2 #menuText p, .row2 #menuText ul {
     font-family: "Open Sans";
 }
